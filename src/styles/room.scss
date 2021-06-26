@@ -110,3 +110,18 @@
     }
   }
 }
+
+@media (max-width: 612px) {
+  .content {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 431px) {
+  .content {
+    > div {
+      flex-direction: column;
+    }
+  }
+}
